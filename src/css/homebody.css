@@ -1,0 +1,19 @@
+.home-body-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 900px;
+  font-size: 42px;
+  padding: 2em;
+  color: #160d18;
+}
+
+.home-body-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em;
+  font-size: 32px;
+  color: #160d18;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

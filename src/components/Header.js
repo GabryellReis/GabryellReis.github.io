@@ -38,6 +38,7 @@ export default function Header() {
             <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
           </svg>
         </button>
+        <p className="mostrar">Perfil</p>
         <button
           className="buttons-header"
           id="projetos"
@@ -55,6 +56,7 @@ export default function Header() {
             <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
           </svg>
         </button>
+        <p className="mostrar">Projetos</p>
         <button
           className="buttons-header"
           id="home"
@@ -72,6 +74,7 @@ export default function Header() {
             <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.707l.547.547 1.17-1.951a.5.5 0 1 1 .858.514Z" />
           </svg>
         </button>
+        <p className="mostrar">Início</p>
         <button className="buttons-header" onClick={() => toggleMenuOn()}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -87,6 +90,7 @@ export default function Header() {
             />
           </svg>
         </button>
+        <p className="mostrar">Menu</p>
       </div>
     </div>
   );
